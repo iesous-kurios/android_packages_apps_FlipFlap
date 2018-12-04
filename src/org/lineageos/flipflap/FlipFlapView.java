@@ -37,6 +37,7 @@ import android.os.Process;
 import android.os.RemoteException;
 import android.os.SystemClock;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 import android.telecom.TelecomManager;
@@ -52,7 +53,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.lineageos.internal.util.LineageLockPatternUtils;
+import com.android.internal.widget.LockPatternUtils;
 
 public class FlipFlapView extends FrameLayout {
     private static final String TAG = "FlipFlapView";
@@ -402,12 +403,12 @@ public class FlipFlapView extends FrameLayout {
     }
 
     private boolean shouldPassToSecurityView() {
-        LineageLockPatternUtils llpu = new LineageLockPatternUtils(mContext);
+        LockPatternUtils llpu = new LockPatternUtils(mContext);
         return llpu.shouldPassToSecurityView(getUserId());
     }
 
     private void setPassToSecurityView(boolean enabled) {
-        LineageLockPatternUtils llpu = new LineageLockPatternUtils(mContext);
+        LockPatternUtils llpu = new LockPatternUtils(mContext);
         llpu.setPassToSecurityView(enabled, getUserId());
     }
 

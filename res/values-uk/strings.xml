@@ -47,4 +47,6 @@
     <string name="timeout_entry_1min">1 хвилина</string>
     <string name="timeout_entry_5min">5 хвилин</string>
     <string name="timeout_entry_never">Ніколи</string>
+    <string name="switch_bar_on">Увімкнено</string>
+    <string name="switch_bar_off">Вимкнено</string>
 </resources>

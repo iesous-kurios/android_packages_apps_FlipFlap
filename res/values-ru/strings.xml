@@ -49,4 +49,6 @@
     <string name="timeout_entry_1min">1 минута</string>
     <string name="timeout_entry_5min">5 минут</string>
     <string name="timeout_entry_never">Не включать</string>
+    <string name="switch_bar_on">Включено</string>
+    <string name="switch_bar_off">Выключено</string>
 </resources>
