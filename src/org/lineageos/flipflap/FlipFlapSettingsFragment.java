@@ -50,7 +50,6 @@ public class FlipFlapSettingsFragment extends PreferenceFragment
 
     private final String KEY_BEHAVIOUR_CATEGORY = "category_behaviour";
     private final String KEY_DESIGN_CATEGORY = "category_design";
-    private final String KEY_TOUCH_SENSITIVITY = "use_high_touch_sensitivity";
 
     private Switch mSwitch;
     private TextView mTextView;
@@ -96,7 +95,6 @@ public class FlipFlapSettingsFragment extends PreferenceFragment
         PreferenceCategory designCategory =
                 (PreferenceCategory) getPreferenceScreen().findPreference(KEY_DESIGN_CATEGORY);
 
-        Preference touchSensitivityPref = (SwitchPreference) findPreference(KEY_TOUCH_SENSITIVITY);
 
         setupTimeoutPreference(FlipFlapUtils.KEY_TIMEOUT_PLUGGED);
         setupTimeoutPreference(FlipFlapUtils.KEY_TIMEOUT_UNPLUGGED);
@@ -104,9 +102,6 @@ public class FlipFlapSettingsFragment extends PreferenceFragment
         int cover = FlipFlapUtils.getCoverStyle(getActivity());
         if (!FlipFlapUtils.showsChargingStatus(cover)) {
             getPreferenceScreen().removePreference(designCategory);
-        }
-        if (!FlipFlapUtils.getHighTouchSensitivitySupported(getContext())) {
-            behaviourCategory.removePreference(touchSensitivityPref);
         }
     }
 
