@@ -31,8 +31,6 @@
     <string name="category_behaviour">Ponašanje</string>
     <string name="pass_to_security_view_title">Izravno prijeđi na unos lozinke</string>
     <string name="pass_to_security_view_summary">Otvaranje poklopca izravno prikazuje zaslon zaključavanja</string>
-    <string name="use_high_touch_sensitivity_title">Visoka osjetljivost na dodir</string>
-    <string name="use_high_touch_sensitivity_summary">Povećaj osjetljivost na dodir dok je poklopac zatvoren</string>
     <string name="category_design">Dizajn</string>
     <string name="switch_charging_status_title">Prikaži status punjenja</string>
     <string name="switch_charging_status_summary">Mijenjanje boje ovisno o trenutnom postotku napunjenosti baterije</string>

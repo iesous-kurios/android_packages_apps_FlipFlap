@@ -31,8 +31,6 @@
     <string name="category_behaviour">行為</string>
     <string name="pass_to_security_view_title">直接輸入密碼</string>
     <string name="pass_to_security_view_summary">開啟保護殼時直接顯示鎖定畫面</string>
-    <string name="use_high_touch_sensitivity_title">高觸控靈敏度</string>
-    <string name="use_high_touch_sensitivity_summary">在合上掀蓋時提高觸控靈敏度</string>
     <string name="category_design">設計</string>
     <string name="switch_charging_status_title">顯示充電狀態</string>
     <string name="switch_charging_status_summary">根據目前電池電量改變顏色</string>
