@@ -26,6 +26,8 @@
     <string name="answer_call">ВІДПОВІСТИ</string>
     <string name="ignore_call">ВІДХИЛИТИ</string>
     <string name="end_call">Завершити</string>
+    <string name="settings_name">Смарт обкладинка</string>
+    <string name="settings_summary">Налаштування роботи аксесуара</string>
     <string name="category_behaviour">Поведінка</string>
     <string name="pass_to_security_view_title">Відразу пропонувати введення паролю</string>
     <string name="pass_to_security_view_summary">Відкриття чохла показує екран розблокування</string>
