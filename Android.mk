@@ -26,3 +26,4 @@ LOCAL_RESOURCE_DIR := \
 include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
+# update to lineage-16.0
